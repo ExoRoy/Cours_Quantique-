@@ -9,3 +9,7 @@ print(u.is_valid())
 
 display(u.draw("latex"))
 display(u.draw("text"))
+print("\n")
+u.seed(value=11)
+a = u.measure()
+print(a)
